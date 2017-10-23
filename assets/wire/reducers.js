@@ -24,6 +24,7 @@ import { toggleValue } from 'utils';
 const initialState = {
     items: [],
     itemsById: {},
+    selectedItems: [],
     activeItem: null,
     previewItem: null,
     isLoading: false,
@@ -31,9 +32,8 @@ const initialState = {
     activeQuery: null,
     user: null,
     company: null,
-    topics: [],
-    selectedItems: [],
     bookmarks: false,
+    topics: [],
     formats: [],
     newItemsCount: 0,
     newItemsData: null,
@@ -47,6 +47,19 @@ function recieveItems(state, data) {
     });
 
     return {...state, items, itemsById, isLoading: false, totalItems: data._meta.total};
+}
+
+export function modalReducer(state=null, action) {
+    switch (action.type) {
+    case RENDER_MODAL:
+        return {modal: action.modal, data: action.data};
+
+    case CLOSE_MODAL:
+        return null;
+
+    default:
+        return state;
+    }
 }
 
 export default function wireReducer(state = initialState, action) {
@@ -93,12 +106,6 @@ export default function wireReducer(state = initialState, action) {
 
     case SET_STATE:
         return Object.assign({}, action.state);
-
-    case RENDER_MODAL:
-        return {...state, modal: {modal: action.modal, data: action.data}};
-
-    case CLOSE_MODAL:
-        return {...state, modal: null};
 
     case INIT_DATA:
         return {

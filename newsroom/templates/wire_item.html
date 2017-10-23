@@ -9,10 +9,12 @@
         <div class="content-bar navbar justify-content-between">
 
             <span class="content-bar__menu">
+                {% if next %}
                 <i class="icon--close-thin"></i>
+                {% endif %}
             </span>
 
-            <div class="wire-column__preview__buttons">
+            <div class="wire-column__preview__buttons" id="wire-actions">
                 <span class="wire-column__preview__icon"><i class="icon--share"></i></span>
                 <span class="wire-column__preview__icon"><i class="icon--print"></i></span>
                 <span class="wire-column__preview__icon"><i class="icon--copy"></i></span>
@@ -111,6 +113,9 @@
 
         </div>
     </article>
-
 </div>
+{% endblock %}
+
+{% block script %}
+    {{ javascript_tag('wire_detail_js') | safe }}
 {% endblock %}

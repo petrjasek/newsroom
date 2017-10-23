@@ -10,6 +10,7 @@ module.exports = {
         settings_js: ['babel-polyfill', './assets/settings/index.js'],
         newsroom_css: './assets/style.js',
         wire_js: ['babel-polyfill', './assets/wire/index.js'],
+        wire_detail_js: ['babel-polyfill', './assets/wire/detail.js'],
     },
     output: {
         path: path.resolve(__dirname, 'newsroom', 'static'),

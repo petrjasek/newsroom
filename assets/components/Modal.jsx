@@ -65,7 +65,7 @@ function assertButtonHandler(label, type, onClick) {
 
 class Modal extends React.Component {
     componentDidMount() {
-        $(this.elem).modal();
+        $(this.elem).modal({backdrop: true});
         $(this.elem).on('hidden.bs.modal', () => {
             this.props.onClose();
         });

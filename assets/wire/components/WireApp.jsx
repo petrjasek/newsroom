@@ -29,9 +29,9 @@ import ShareItemModal from './ShareItemModal';
 import DownloadItemsModal from './DownloadItemsModal';
 
 const modals = {
+    downloadItems: DownloadItemsModal,
     followTopic: FollowTopicModal,
     shareItem: ShareItemModal,
-    downloadItems: DownloadItemsModal,
 };
 
 class WireApp extends React.Component {
