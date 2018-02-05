@@ -13,8 +13,10 @@ function UserListItem({user, isActive, onClick, companiesById}) {
             <td>{user.phone}</td>
             <td>{user.user_type}</td>
             <td>{(user.company && companiesById ? companiesById[user.company].name : null)}</td>
-            <td>{(user.is_approved ? gettext('Approved') : gettext('Needs Approval'))} -
-                {(user.is_enabled ? gettext('Enabled') : gettext('Disabled'))}</td>
+            <td>
+                {(user.is_approved ? gettext('Approved') : gettext('Needs Approval'))} -
+                {(user.is_enabled ? gettext('Enabled') : gettext('Disabled'))}
+            </td>
             <td>{shortDate(user._created)}</td>
         </tr>
     );
