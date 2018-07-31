@@ -29,3 +29,4 @@ def init_app(app):
 
     app.sidenav('Agenda', 'agenda.agenda', 'calendar')
     app.add_download_formatter('ical', formatters.iCalFormatter(), 'iCalendar', ['agenda'])
+    app.add_download_formatter('ical', formatters.EventsNewsmlG2Formatter(), 'Event in NewsML-G2', ['agenda'])
