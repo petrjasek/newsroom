@@ -45,12 +45,14 @@ module.exports = {
         rules: [
             {
                 test: /\.jsx?$/,
-                loader: 'babel-loader',
                 exclude: /node_modules/,
-                options: {
-                    presets: ['es2015', 'react'],
-                    plugins: ['transform-object-rest-spread'],
-                }
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['@babel/env', '@babel/react'],
+                        plugins: ['transform-object-rest-spread'],
+                    },
+                },
             },
             {
                 test: /\.css$/,
