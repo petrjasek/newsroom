@@ -1,10 +1,12 @@
 import superdesk
 from functools import wraps
 
-from flask import Blueprint, abort, current_app as newsroom_app
+from flask import Blueprint, abort, current_app as newsroom_app, request
 from flask_babel import gettext
 from newsroom.auth import get_user
+from newsroom.auth.token import decode_jwt
 from newsroom.template_filters import sidenavs
+from superdesk.utc import utcnow
 
 from .companies import CompaniesResource, CompaniesService
 
@@ -63,6 +65,23 @@ def section(_id):
             return f(*args, **kwargs)
         return decorated_function
     return section_decorator
+
+
+def get_company_by_token():
+    if not request:
+        return None
+    auth_token = request.args.get('auth_token')
+    if not auth_token:
+        return None
+    payload = decode_jwt(auth_token)
+    if not payload or not payload.get('company'):
+        return None
+    company = superdesk.get_resource_service('companies').find_one(req=None, _id=payload['company'])
+    if not company:
+        return None
+    if company.get('expiry_date') and company['expiry_date'] < utcnow():
+        return None
+    return company
 
 
 def init_app(app):

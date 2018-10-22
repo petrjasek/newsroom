@@ -1,6 +1,11 @@
+import jwt
+
 from itsdangerous import (TimedJSONWebSignatureSerializer
                           as Serializer, BadSignature, SignatureExpired)
 from flask import current_app as app
+
+
+JWT_ALGO = 'HS256'
 
 
 def generate_auth_token(id, name, user_type, expiration=3600):
@@ -30,3 +35,16 @@ def verify_auth_token(token):
     except BadSignature:
         return None  # invalid token
     return data
+
+
+def generate_jwt(**payload):
+    """Generate JWT for payload."""
+    return jwt.encode(payload, app.config['SECRET_KEY'], algorithm=JWT_ALGO).decode('utf-8')
+
+
+def decode_jwt(token):
+    """Decode JWT payload."""
+    try:
+        return jwt.decode(token, app.config['SECRET_KEY'], algorithms=[JWT_ALGO])
+    except jwt.exceptions.DecodeError:
+        return None

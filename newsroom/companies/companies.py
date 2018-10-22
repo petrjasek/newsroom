@@ -1,6 +1,8 @@
 
 import newsroom
+
 from content_api import MONGO_PREFIX
+from newsroom.auth.token import generate_jwt
 
 
 class CompaniesResource(newsroom.Resource):
@@ -44,6 +46,9 @@ class CompaniesResource(newsroom.Resource):
         'sections': {
             'type': 'object',
         },
+        'auth_token': {
+            'type': 'string',
+        },
     }
     datasource = {
         'source': 'companies',
@@ -52,7 +57,20 @@ class CompaniesResource(newsroom.Resource):
     item_methods = ['GET', 'PATCH', 'DELETE']
     resource_methods = ['GET', 'POST']
     mongo_prefix = MONGO_PREFIX
+    mongo_indexes = {
+        'auth_token': ([('auth_token', 1)], {'unique': True}),
+    }
 
 
 class CompaniesService(newsroom.Service):
-    pass
+
+    def _populate_auth_token(self, company):
+        if not company.get('auth_token'):
+            company['auth_token'] = generate_jwt(company=str(company['_id']))
+            self.system_update(company['_id'], {'auth_token': company['auth_token']}, company)
+
+    def get(self, req, lookup):
+        res = super().get(req, lookup)
+        for company in list(res):
+            self._populate_auth_token(company)
+        return res.clone()

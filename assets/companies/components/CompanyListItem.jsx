@@ -18,6 +18,9 @@ function CompanyListItem({company, isActive, onClick}) {
             <td>{company.country}</td>
             <td>{shortDate(company._created)}</td>
             <td>{company.expiry_date && shortDate(company.expiry_date)}</td>
+            <td>{company.auth_token &&
+                <a href={'/wire/rss?auth_token=' + company.auth_token} target="_blank" onClick={(event) => event.stopPropagation()}>RSS</a>
+            }</td>
         </tr>
     );
 }

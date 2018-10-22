@@ -14,6 +14,8 @@ install_requires = [
     'gunicorn>=19.7.1',
     'superdesk-core>=1.24,<1.25',
     'icalendar>=4.0.3,<4.1',
+    'feedgen>=0.7.0,<0.8.0',
+    'PyJWT>=1.6.4,<1.7.0',
 ]
 
 setup(

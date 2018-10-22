@@ -127,7 +127,7 @@ def set_product_query(query, company, user=None, navigation_id=None, product_typ
 
     query['bool']['minimum_should_match'] = 1
 
-    if not query['bool']['should']:
+    if not products:
         abort(403, gettext('Your company doesn\'t have any products defined.'))
 
 
@@ -188,13 +188,14 @@ class WireSearchService(newsroom.Service):
         internal_req.args = {'source': json.dumps(source)}
         return super().get(internal_req, None).count()
 
-    def get(self, req, lookup, size=25, aggs=True):
+    def get(self, req, lookup, size=25, aggs=True, company=None, product_type=None):
+        if company is None:
+            user = get_user()
+            company = get_user_company(user)
         query = _items_query()
-        user = get_user()
-        company = get_user_company(user)
         set_product_query(query, company,
                           navigation_id=req.args.get('navigation'),
-                          product_type=req.args.get('section') if req.args.get('bookmarks') else None)
+                          product_type=req.args.get('section') if req.args.get('bookmarks') else product_type)
 
         if req.args.get('q'):
             query['bool']['must'].append(query_string(req.args['q']))

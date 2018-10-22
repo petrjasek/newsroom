@@ -1,7 +1,7 @@
 import re
-from datetime import datetime
-
 import flask
+
+from datetime import datetime
 from bson import ObjectId
 from flask import jsonify, current_app as app
 from flask_babel import gettext
@@ -11,6 +11,7 @@ from werkzeug.exceptions import NotFound
 from newsroom.auth.decorator import admin_only, login_required
 from newsroom.companies import blueprint
 from newsroom.utils import query_resource, find_one, get_entity_or_404, get_json_or_400
+from newsroom.auth.token import generate_jwt
 
 
 def get_settings_data():
@@ -40,7 +41,9 @@ def create():
     validate_company(company)
     new_company = get_company_updates(company)
     ids = get_resource_service('companies').post([new_company])
-    return jsonify({'success': True, '_id': ids[0]}), 201
+    new_company['auth_token'] = generate_jwt(company=str(ids[0]))
+    get_resource_service('companies').system_update(ids[0], {'auth_token': new_company['auth_token']}, new_company)
+    return jsonify({'success': True, '_id': ids[0], 'auth_token': new_company['auth_token']}), 201
 
 
 def validate_company(company):

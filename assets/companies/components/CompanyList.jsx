@@ -27,6 +27,7 @@ function CompanyList({companies, onClick, activeCompanyId}) {
                             <th>{ gettext('Country') }</th>
                             <th>{ gettext('Created On') }</th>
                             <th>{ gettext('Expires On') }</th>
+                            <th>{ gettext('Links') }</th>
                         </tr>
                     </thead>
                     <tbody>{list}</tbody>

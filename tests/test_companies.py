@@ -22,6 +22,7 @@ def test_delete_company_deletes_company_and_users(client):
     }), content_type='application/json')
 
     assert response.status_code == 201
+    assert 'auth_token' in json.loads(response.get_data())
     company = get_resource_service('companies').find_one(req=None, name='Press Co.')
 
     # Register a user for the company

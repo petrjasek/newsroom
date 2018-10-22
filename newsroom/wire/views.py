@@ -10,6 +10,7 @@ from operator import itemgetter
 from flask import current_app as app
 from eve.render import send_response
 from eve.methods.get import get_internal
+from eve.utils import ParsedRequest
 from werkzeug.utils import secure_filename
 from flask_babel import gettext
 from superdesk.utc import utcnow
@@ -20,11 +21,12 @@ from newsroom.wire import blueprint
 from newsroom.auth import get_user, get_user_id, login_required
 from newsroom.topics import get_user_topics
 from newsroom.email import send_email
-from newsroom.companies import get_user_company
+from newsroom.companies import get_user_company, get_company_by_token
 from newsroom.utils import get_entity_or_404, get_json_or_400, parse_dates, get_type, is_json_request
 from newsroom.notifications import push_user_notification
 from newsroom.companies import section
 from .search import get_bookmarks_count
+from .rss import generate_rss
 
 HOME_ITEMS_CACHE_KEY = 'home_items'
 
@@ -143,6 +145,24 @@ def index():
 @section('wire')
 def wire():
     return flask.render_template('wire_index.html', data=get_view_data())
+
+
+@blueprint.route('/wire/rss')
+@section('wire')
+def rss():
+    company = get_company_by_token()
+    if not company:
+        flask.abort(401)
+    req = ParsedRequest()
+    req.args = {}
+    items = superdesk.get_resource_service('wire_search').get(
+        req=req,
+        lookup=None,
+        aggs=False,
+        company=company,
+        product_type='wire')
+    content = generate_rss(items)
+    return flask.Response(content, mimetype='application/rss+xml')
 
 
 @blueprint.route('/bookmarks')
