@@ -230,5 +230,5 @@ COVERAGE_TYPES = {
     'live_blog': {'name': 'Live Blog', 'icon': 'live-blog'}
 }
 
-LANGUAGES = ['en']
+LANGUAGES = ['en', 'fi', 'cs']
 DEFAULT_LANGUAGE = 'en'
