@@ -1,17 +1,18 @@
-# Translators:
-# Karel Petrak <karel.petrak@sourcefabric.org>, 2018
+# Finnish translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-23 14:12+0200\n"
-"PO-Revision-Date: 2018-10-11 11:46+0200\n"
-"Last-Translator: Karel Petrak <karel.petrak@sourcefabric.org>, 2018\n"
-"Language: cs\n"
-"Language-Team: Czech "
-"(https://www.transifex.com/sourcefabric/teams/6584/cs/)\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && "
-"n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3\n"
+"POT-Creation-Date: 2018-10-23 14:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fi\n"
+"Language-Team: fi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,156 +20,156 @@ msgstr ""
 
 #: assets/agenda/actions.js:60
 msgid "Your request has been sent successfully"
-msgstr "Váš požadavek byl úspěšně odeslán"
+msgstr "Pyyntösi on lähetetty"
 
 #: assets/agenda/actions.js:187
 msgid "Started watching items successfully."
-msgstr "Začátek sledování."
+msgstr "Ryhdyit seuraamaan kohdetta"
 
 #: assets/agenda/actions.js:198
 msgid "Stopped watching items successfully."
-msgstr "Sledování ukončeno."
+msgstr "Lopetit kohteen seuraamisen"
 
 #: assets/agenda/actions.js:250 assets/wire/actions.js:267
 msgid "Items were shared successfully."
-msgstr "Úspěšně sdíleno."
+msgstr "Jaoit kohteet onnistuneesti"
 
 #: assets/agenda/actions.js:252 assets/wire/actions.js:269
 msgid "Item was shared successfully."
-msgstr "Úspěšně sdíleno."
+msgstr "Jaoit kohteen onnistuneesti"
 
 #: assets/agenda/components/AgendaApp.jsx:58
 msgid "Events"
-msgstr "Události"
+msgstr "Tapahtumat"
 
 #: assets/agenda/components/AgendaApp.jsx:59
 msgid "My Events"
-msgstr "Moje události"
+msgstr "Omat tapahtumat"
 
 #: assets/agenda/components/AgendaApp.jsx:89
 #: assets/wire/components/WireApp.jsx:78
 msgid "Close filter panel"
-msgstr "Zavřít filtry"
+msgstr "Sulje suodatinnäkymä"
 
 #: assets/agenda/components/AgendaApp.jsx:96
 #: assets/wire/components/WireApp.jsx:90
 msgid "Open filter panel"
-msgstr "Otevřít filtry"
+msgstr "Avaa suodattimet"
 
 #: assets/agenda/components/AgendaApp.jsx:257
 msgid "Watch"
-msgstr "Sledovat"
+msgstr "Seuraa"
 
 #: assets/agenda/components/AgendaApp.jsx:264
 msgid "Stop watching"
-msgstr "Přestat sledovat"
+msgstr "Lopeta seuraaminen"
 
 #: assets/agenda/components/AgendaAttachments.jsx:35
 msgid "Size:"
-msgstr "Velikost:"
+msgstr "Koko:"
 
 #: assets/agenda/components/AgendaAttachments.jsx:37
 msgid "MIME type:"
-msgstr "Typ souboru:"
+msgstr "MIME-tyyppi"
 
 #: assets/agenda/components/AgendaCalendarButton.jsx:46
 #: assets/agenda/components/AgendaDateButtons.jsx:15
 #: assets/company-reports/components/ProductStories.jsx:29
 #: assets/wire/components/filters/NavCreatedPicker.jsx:9
 msgid "Today"
-msgstr "Dnes"
+msgstr "Tänään"
 
 #: assets/agenda/components/AgendaCoverageRequest.jsx:39
 msgid "Request coverage"
-msgstr "Žádost o pokrytí"
+msgstr "Pyydä uutisointia"
 
 #: assets/agenda/components/AgendaCoverageRequest.jsx:46
 msgid "your request"
-msgstr "váš vzkaz / požadavek"
+msgstr "pyyntösi"
 
 #: assets/agenda/components/AgendaCoverageRequest.jsx:56
 #: assets/components/Modal.jsx:127
 #: assets/user-profile/components/profile/UserProfile.jsx:127
 #: assets/wire/components/SelectedItemsBar.jsx:41
 msgid "Cancel"
-msgstr "Zrušit"
+msgstr "Peruuta"
 
 #: assets/agenda/components/AgendaCoverageRequest.jsx:62
 msgid "Send Request"
-msgstr "Odeslat"
+msgstr "Lähetä pyyntö"
 
 #: assets/agenda/components/AgendaCoverages.jsx:25
 msgid "due by"
-msgstr "očekáváno"
+msgstr "deadline"
 
 #: assets/agenda/components/AgendaCoverages.jsx:31
 msgid "Source"
-msgstr "Zdroj"
+msgstr "Lähde"
 
 #: assets/agenda/components/AgendaDateButtons.jsx:36
 msgid "D"
-msgstr "D"
+msgstr "P"
 
 #: assets/agenda/components/AgendaDateButtons.jsx:43
 msgid "W"
-msgstr "T"
+msgstr "V"
 
 #: assets/agenda/components/AgendaDateButtons.jsx:50
 msgid "M"
-msgstr "M"
+msgstr "KK"
 
 #: assets/agenda/components/AgendaDetailCoverages.jsx:14
 #: assets/agenda/components/AgendaItemDetails.jsx:62
 #: assets/agenda/components/AgendaPreviewCoverages.jsx:14
 msgid "Coverages"
-msgstr "Způsob krytí"
+msgstr "Uutisointi"
 
 #: assets/agenda/components/AgendaFilters.jsx:8
 msgid "Any calendar"
-msgstr "Všechny kalendáře"
+msgstr "Kaikki kalenterit"
 
 #: assets/agenda/components/AgendaFilters.jsx:11
 msgid "Any location"
-msgstr "Všechna místa"
+msgstr "Kaikki sijainnit"
 
 #: assets/agenda/components/AgendaFilters.jsx:15
 msgid "Any region"
-msgstr "Všechny regiony"
+msgstr "Kaikki alueet"
 
 #: assets/agenda/components/AgendaFilters.jsx:18
 msgid "Any coverage"
-msgstr "Všechna média"
+msgstr "Kaikki uutisointi"
 
 #: assets/agenda/components/AgendaItemDetails.jsx:67
 #: assets/agenda/components/AgendaPreviewAttachments.jsx:16
 msgid "Attachments"
-msgstr "Přílohy"
+msgstr "Liitteet"
 
 #: assets/agenda/components/AgendaList.jsx:170
 #: assets/am-news/components/AmNewsList.jsx:187
 #: assets/wire/components/ItemsList.jsx:155
 msgid "No items found."
-msgstr "Žádné položky"
+msgstr "Kohteita ei löytynyt"
 
 #: assets/agenda/components/AgendaListItemIcons.jsx:42
 msgid "{{ status }} on {{date}} {{time}}"
-msgstr "{{ status }}: {{date}} {{time}}"
+msgstr "{{ tila}} {{päivämäärä}} {{aika}}"
 
 #: assets/agenda/components/AgendaListItemLabels.jsx:8
 msgid "postponed"
-msgstr "odloženo"
+msgstr "lykkääntynyt"
 
 #: assets/agenda/components/AgendaListItemLabels.jsx:9
 msgid "cancelled"
-msgstr "zrušeno"
+msgstr "peruttu"
 
 #: assets/agenda/components/AgendaListItemLabels.jsx:10
 msgid "rescheduled"
-msgstr "přeloženo"
+msgstr "siirretty"
 
 #: assets/agenda/components/AgendaTypeAheadFilter.jsx:33
 msgid "Choose a location..."
-msgstr "Vyberte místo"
+msgstr "Valitse sijainti..."
 
 #: assets/agenda/components/CoverageItemStatus.jsx:40
 #: assets/companies/components/CompanyList.jsx:24
@@ -176,24 +177,24 @@ msgstr "Vyberte místo"
 #: assets/products/components/ProductList.jsx:23
 #: assets/users/components/UsersList.jsx:30
 msgid "Status"
-msgstr "Status"
+msgstr "Tila"
 
 #: assets/agenda/components/CoverageItemStatus.jsx:47
 #: assets/components/BookmarkTabs.jsx:10
 msgid "Wire"
-msgstr "Zpravodajství"
+msgstr "Uusimmat uutiset"
 
 #: assets/cards/actions.js:92
 msgid "Card updated successfully"
-msgstr "Karta byla úspěšně zaktualizována"
+msgstr "Näkymä päivitetty"
 
 #: assets/cards/actions.js:94
 msgid "Card created successfully"
-msgstr "Karta byla úspěšně vytvořena"
+msgstr "Näkymä luotu"
 
 #: assets/cards/actions.js:116
 msgid "Card deleted successfully"
-msgstr "Karta byla smazána"
+msgstr "Näkymä poistettu"
 
 #: assets/cards/components/CardDetails.jsx:28
 #: assets/cards/components/CardList.jsx:25
@@ -201,22 +202,22 @@ msgstr "Karta byla smazána"
 #: assets/products/components/EditProduct.jsx:20
 #: assets/products/components/ProductsApp.jsx:27
 msgid "Product"
-msgstr "Produkt"
+msgstr "Tuote"
 
 #: assets/cards/components/CardList.jsx:23
 #: assets/cards/components/EditCard.jsx:51
 msgid "Label"
-msgstr "Název"
+msgstr "Nimi"
 
 #: assets/cards/components/CardList.jsx:24
 #: assets/cards/components/EditCard.jsx:58
 msgid "Type"
-msgstr "Typ"
+msgstr "Tyyppi"
 
 #: assets/cards/components/CardList.jsx:26
 #: assets/cards/components/EditCard.jsx:67
 msgid "Order"
-msgstr "Pořadí"
+msgstr "Sijainti etusivulla"
 
 #: assets/cards/components/CardList.jsx:27
 #: assets/companies/components/CompanyList.jsx:28
@@ -224,59 +225,59 @@ msgstr "Pořadí"
 #: assets/products/components/ProductList.jsx:26
 #: assets/users/components/UsersList.jsx:31
 msgid "Created On"
-msgstr "Vytvořeno"
+msgstr "Luontiaika"
 
 #: assets/cards/components/Cards.jsx:34
 msgid "Please provide card label"
-msgstr "Prosím, vyplňte název"
+msgstr "Anna näkymälle nimi"
 
 #: assets/cards/components/Cards.jsx:40
 msgid "Please provide start date"
-msgstr "Prosím, vyplňte počáteční datum"
+msgstr "Anna alkapäivämäärä"
 
 #: assets/cards/components/Cards.jsx:61
 msgid "Would you like to delete card: {{label}}"
-msgstr "Chcete smazat kartu: {{label}}"
+msgstr "Haluatko varmasti poistaa näkymän: {{nimi}}"
 
 #: assets/cards/components/EditCard.jsx:12
 msgid "6-text-only"
-msgstr "6 dlaždic - jen text"
+msgstr "6-palstainen, vain teksti"
 
 #: assets/cards/components/EditCard.jsx:13
 msgid "4-picture-text"
-msgstr "4 dlaždice - foto a text"
+msgstr "4-palstainen, kuva ja teksti"
 
 #: assets/cards/components/EditCard.jsx:14
 msgid "4-media-gallery"
-msgstr "4 dlažice: galerie"
+msgstr "4-palstainen mediagalleria"
 
 #: assets/cards/components/EditCard.jsx:15
 msgid "4-photo-gallery"
-msgstr "4 dlaždice - fotogalerie (AAP Photos)"
+msgstr "4-palstainen kuvagalleria"
 
 #: assets/cards/components/EditCard.jsx:16
 msgid "4-text-only"
-msgstr "4 dlaždice - jen text"
+msgstr "4-palstainen, vain teksti"
 
 #: assets/cards/components/EditCard.jsx:17
 msgid "1x1-top-news"
-msgstr "1x1 Hlavní zprávy"
+msgstr "1x1 pääuutiset"
 
 #: assets/cards/components/EditCard.jsx:18
 msgid "2x2-top-news"
-msgstr "2x2 Hlavní zprávy"
+msgstr "2x2 pääuutiset"
 
 #: assets/cards/components/EditCard.jsx:19
 msgid "3-text-only"
-msgstr "3 dlaždice - jen text"
+msgstr "3-palstainen, vain teksti"
 
 #: assets/cards/components/EditCard.jsx:20
 msgid "3-picture-text"
-msgstr "3 dlaždice - foto a text"
+msgstr "3-palstainen, kuva ja teksti"
 
 #: assets/cards/components/EditCard.jsx:21
 msgid "2x2-events"
-msgstr "2x2 Události"
+msgstr "2x2, tapahtumat"
 
 #: assets/cards/components/EditCard.jsx:93
 #: assets/companies/components/CompanyPermissions.jsx:85
@@ -286,7 +287,7 @@ msgstr "2x2 Události"
 #: assets/products/components/EditProduct.jsx:136
 #: assets/users/components/EditUser.jsx:120 assets/wire/item-actions.js:51
 msgid "Save"
-msgstr "Uložit"
+msgstr "Tallenna"
 
 #: assets/cards/components/EditCard.jsx:98
 #: assets/companies/components/EditCompany.jsx:170
@@ -295,47 +296,47 @@ msgstr "Uložit"
 #: assets/user-profile/components/topics/FollowedTopics.jsx:87
 #: assets/users/components/EditUser.jsx:126
 msgid "Delete"
-msgstr "Smazat"
+msgstr "Poista"
 
 #: assets/cards/components/EventDetails.jsx:23
 msgid "Headline"
-msgstr "Titulek"
+msgstr "Otsikko"
 
 #: assets/cards/components/EventDetails.jsx:30
 msgid "Abstract"
-msgstr "Popis"
+msgstr "Tiivistelmä"
 
 #: assets/cards/components/EventDetails.jsx:37
 msgid "Start Date"
-msgstr "Začátek"
+msgstr "Alkupäivämäärä"
 
 #: assets/cards/components/EventDetails.jsx:45
 msgid "End Date"
-msgstr "Konec"
+msgstr "Loppupäivämäärä"
 
 #: assets/cards/components/EventDetails.jsx:53
 msgid "Location"
-msgstr "Místo"
+msgstr "Sijainti"
 
 #: assets/cards/components/EventDetails.jsx:60
 msgid "Image"
-msgstr "Obrázek"
+msgstr "Kuva"
 
 #: assets/companies/actions.js:113 assets/companies/actions.js:148
 msgid "Company updated successfully"
-msgstr "Firma byla aktualizována"
+msgstr "Yritys päivitetty"
 
 #: assets/companies/actions.js:115
 msgid "Company created successfully"
-msgstr "Firma byla vytvořena"
+msgstr "Yritys luotu"
 
 #: assets/companies/actions.js:169
 msgid "Company deleted successfully"
-msgstr "Firma byla smazána"
+msgstr "Yritys poistettu"
 
 #: assets/companies/components/Companies.jsx:53
 msgid "Would you like to delete company: {{name}}"
-msgstr "Chcete smazat firmu: {{name}}"
+msgstr "Haluatko varmasti poistaa yrityksen: {{nimi}}"
 
 #: assets/companies/components/CompanyList.jsx:22
 #: assets/companies/components/EditCompany.jsx:98
@@ -346,30 +347,30 @@ msgstr "Chcete smazat firmu: {{name}}"
 #: assets/products/components/ProductList.jsx:22
 #: assets/users/components/UsersList.jsx:23
 msgid "Name"
-msgstr "Název"
+msgstr "Nimi"
 
 #: assets/companies/components/CompanyList.jsx:23
 #: assets/companies/components/EditCompany.jsx:112
 msgid "Superdesk Subscriber Id"
-msgstr "Subscriber ID v Superdesku"
+msgstr "Superdeskin tilaajatunnus"
 
 #: assets/companies/components/CompanyList.jsx:25
 msgid "Contact"
-msgstr "Kontakt"
+msgstr "Yhteyshenkilö"
 
 #: assets/companies/components/CompanyList.jsx:26
 #: assets/companies/components/EditCompany.jsx:119
 msgid "Telephone"
-msgstr "Telefon"
+msgstr "Puhelinnumero"
 
 #: assets/companies/components/CompanyList.jsx:27
 #: assets/companies/components/EditCompany.jsx:140
 msgid "Country"
-msgstr "Země"
+msgstr "Maa"
 
 #: assets/companies/components/CompanyList.jsx:29
 msgid "Expires On"
-msgstr "Platí do"
+msgstr "Vanhenee"
 
 #: assets/companies/components/CompanyListItem.jsx:14
 #: assets/companies/components/EditCompany.jsx:156
@@ -380,35 +381,35 @@ msgstr "Platí do"
 #: assets/users/components/EditUser.jsx:102
 #: assets/users/components/UserListItem.jsx:19
 msgid "Enabled"
-msgstr "Aktivní"
+msgstr "Päällä"
 
 #: assets/companies/components/CompanyListItem.jsx:14
 #: assets/navigations/components/NavigationListItem.jsx:13
 #: assets/products/components/ProductListItem.jsx:12
 #: assets/users/components/UserListItem.jsx:19
 msgid "Disabled"
-msgstr "Deaktivovaná"
+msgstr "Pois päältä"
 
 #: assets/companies/components/CompanyPermissions.jsx:17
 msgid "Sections"
-msgstr "Sekce"
+msgstr "Osastot"
 
 #: assets/companies/components/CompanyPermissions.jsx:18
 #: assets/navigations/components/EditNavigation.jsx:19
 msgid "Products"
-msgstr "Produkty"
+msgstr "Tuotteet"
 
 #: assets/companies/components/EditCompany.jsx:13
 msgid "Australia"
-msgstr "Austrálie"
+msgstr "Australia"
 
 #: assets/companies/components/EditCompany.jsx:14
 msgid "New Zealand"
-msgstr "Nový Zéland"
+msgstr "Uusi-Seelanti"
 
 #: assets/companies/components/EditCompany.jsx:15
 msgid "Other"
-msgstr "Jiná"
+msgstr "Muu"
 
 #: assets/companies/components/EditCompany.jsx:25
 #: assets/company-reports/components/CompanyProducts.jsx:36
@@ -417,605 +418,605 @@ msgstr "Jiná"
 #: assets/users/components/EditUser.jsx:87
 #: assets/users/components/UsersList.jsx:29
 msgid "Company"
-msgstr "Firma"
+msgstr "Yritys"
 
 #: assets/companies/components/EditCompany.jsx:26
 msgid "Users"
-msgstr "Uživatelé"
+msgstr "Käyttäjät"
 
 #: assets/companies/components/EditCompany.jsx:27
 msgid "Permissions"
-msgstr "Oprávnění"
+msgstr "Käyttöoikeudet"
 
 #: assets/companies/components/EditCompany.jsx:42
 msgid "There are no users in the company."
-msgstr "Firma nemá žádné uživatele."
+msgstr "Yrityksellä ei ole käyttäjiä"
 
 #: assets/companies/components/EditCompany.jsx:105
 msgid "Company Url"
-msgstr "firemní web"
+msgstr "Yrityksen verkkosivu"
 
 #: assets/companies/components/EditCompany.jsx:126
 msgid "Contact Name"
-msgstr "Kontaktní osoba"
+msgstr "Yhteyshenkilö"
 
 #: assets/companies/components/EditCompany.jsx:133
 msgid "Contact Email"
-msgstr "kontaktní email"
+msgstr "Sähköposti"
 
 #: assets/companies/components/EditCompany.jsx:148
 msgid "Expiry Date"
-msgstr "Přístup platný do:"
+msgstr "Vanhenee"
 
 #: assets/company-reports/components/CompanyProducts.jsx:8
 msgid "Product name"
-msgstr "Název produktu"
+msgstr "Tuotteen nimi"
 
 #: assets/company-reports/components/CompanyProducts.jsx:9
 msgid "Is enabled"
-msgstr "Je aktivní"
+msgstr "On käytössä"
 
 #: assets/company-reports/components/CompanyProducts.jsx:10
 #: assets/products/components/EditProduct.jsx:111
 #: assets/products/components/ProductList.jsx:25
 msgid "Query"
-msgstr "Dotaz"
+msgstr "Hakulauseke"
 
 #: assets/company-reports/components/CompanyProducts.jsx:11
 msgid "sd_product_id"
-msgstr "sd_product_id"
+msgstr "Superdesk-tuotteen id"
 
 #: assets/company-reports/components/CompanyProducts.jsx:37
 #: assets/company-reports/components/CompanySavedSearches.jsx:22
 #: assets/company-reports/components/ProductStories.jsx:28
 #: assets/company-reports/components/UserSavedSearches.jsx:23
 msgid "Is Enabled"
-msgstr "Je aktivní"
+msgstr "On käytössä"
 
 #: assets/company-reports/components/CompanyProducts.jsx:38
 msgid "Number Of Products"
-msgstr "Počet produktů"
+msgstr "Tuotteiden määrä"
 
 #: assets/company-reports/components/CompanyReportsApp.jsx:13
 msgid "Saved searches per company"
-msgstr "Uložených dotazů na firmu"
+msgstr "Tallennettuja hakuja yritystä kohden"
 
 #: assets/company-reports/components/CompanyReportsApp.jsx:14
 msgid "Saved searches per user"
-msgstr "Uložených dotazů na uživatele"
+msgstr "Tallennettuja hakuja käyttäjää kohden"
 
 #: assets/company-reports/components/CompanyReportsApp.jsx:15
 msgid "Products per company"
-msgstr "Produktů na firmu"
+msgstr "Tuotteiden määrä yritystä kohden"
 
 #: assets/company-reports/components/CompanyReportsApp.jsx:16
 msgid "Stories per product"
-msgstr "Počet článků na produkt"
+msgstr "Juttujen määrä tuotetta kohden"
 
 #: assets/company-reports/components/CompanyReportsApp.jsx:52
 msgid "Run report"
-msgstr "Vytvoř report"
+msgstr "Aja raportti"
 
 #: assets/company-reports/components/CompanyReportsApp.jsx:59
 msgid "Print report"
-msgstr "Vytisknout report"
+msgstr "Tulosta raportti"
 
 #: assets/company-reports/components/CompanySavedSearches.jsx:23
 #: assets/company-reports/components/UserSavedSearches.jsx:25
 msgid "Number Of Saved Searches"
-msgstr "Počet uložených dotazů"
+msgstr "Tallennettujen hakujen määrä"
 
 #: assets/company-reports/components/ProductStories.jsx:30
 msgid "Last 24 hours"
-msgstr "Posledních 24 hodin"
+msgstr "Edelliset 24 tuntia"
 
 #: assets/company-reports/components/ProductStories.jsx:31
 #: assets/wire/components/filters/NavCreatedPicker.jsx:10
 msgid "This week"
-msgstr "Tento týden"
+msgstr "Tämä viikko"
 
 #: assets/company-reports/components/ProductStories.jsx:32
 msgid "Last 7 days"
-msgstr "Posledních 7 dní"
+msgstr "Edelliset 7 päivää"
 
 #: assets/company-reports/components/ProductStories.jsx:33
 #: assets/wire/components/filters/NavCreatedPicker.jsx:11
 msgid "This month"
-msgstr "Tento měsíc"
+msgstr "Tämä kuukausi"
 
 #: assets/company-reports/components/ProductStories.jsx:34
 msgid "Previous month"
-msgstr "Předchozí měsíc"
+msgstr "Viime kuukausi"
 
 #: assets/company-reports/components/ProductStories.jsx:35
 msgid "Last 6 months"
-msgstr "Posledních 6 měsíců"
+msgstr "Edelliset 6 kuukautta"
 
 #: assets/company-reports/components/UserSavedSearches.jsx:22
 msgid "User"
-msgstr "Uživatel"
+msgstr "Käyttäjä"
 
 #: assets/components/BookmarkTabs.jsx:15
 #: assets/wire/components/AgendaLinks.jsx:46
 msgid "Agenda"
-msgstr "Kalendář"
+msgstr "Agenda"
 
 #: assets/components/BookmarkTabs.jsx:20
 msgid "AM News"
-msgstr "AM News"
+msgstr ""
 
 #: assets/components/FollowTopicModal.jsx:50
 #: assets/wire/components/SearchResultsInfo.jsx:72
 msgid "Save as topic"
-msgstr "Ulož jako téma"
+msgstr "Tallenna aiheeksi"
 
 #: assets/components/FollowTopicModal.jsx:60
 msgid "Send me notifications"
-msgstr "Posílej mi upozornění"
+msgstr "Lähetä minulle ilmoituksia"
 
 #: assets/components/ListBar.jsx:17
 msgid "New {{ buttonName }}"
-msgstr "Nový {{ buttonName }}"
+msgstr "Uusi {{ napin nimi }}"
 
 #: assets/components/ListViewOptions.jsx:14
 msgid "Large list"
-msgstr "Rozšířený seznam"
+msgstr "Laaja listaus"
 
 #: assets/components/ListViewOptions.jsx:15
 msgid "Compact list"
-msgstr "Kompaktní seznam"
+msgstr "Tiivis listaus"
 
 #: assets/components/ListViewOptions.jsx:48
 #: assets/components/ListViewOptions.jsx:53
 msgid "Change view"
-msgstr "Změň zobrazení"
+msgstr "Muuta näkymää"
 
 #: assets/components/NotificationList.jsx:53
 #: assets/components/NotificationList.jsx:60
 msgid "Notifications"
-msgstr "Upozornění"
+msgstr "Ilmoitukset"
 
 #: assets/components/NotificationList.jsx:63
 msgid "Clear All"
-msgstr "Zruš vše"
+msgstr "Tyhjennä kaikki"
 
 #: assets/components/NotificationListItem.jsx:9
 msgid "An agenda you downloaded has been updated"
-msgstr "Událost, kterou jste si stáhli, byla aktualizována"
+msgstr "Lataamasi agenda on päivitetty"
 
 #: assets/components/NotificationListItem.jsx:15
 msgid "A story you downloaded has been updated"
-msgstr "Článek, který jste si stáhli, byl aktualizován"
+msgstr "Lataamasi juttu on päivitetty"
 
 #: assets/components/NotificationListItem.jsx:27
 #: assets/user-profile/components/topics/FollowedTopics.jsx:45
 msgid "Created on"
-msgstr "Vytvořeno"
+msgstr "Luontiaika"
 
 #: assets/components/SearchBar.jsx:51 assets/components/SearchBar.jsx:52
 msgid "Search for..."
-msgstr "Najdi..."
+msgstr "Hae..."
 
 #: assets/components/SearchBar.jsx:60
 #: assets/wire/components/filters/FiltersTab.jsx:80
 msgid "Search"
-msgstr "Hledej"
+msgstr "Hae"
 
 #: assets/components/ShareItemModal.jsx:65
 msgid "Share Item"
-msgstr "Sdílej"
+msgstr "Jaa kohde"
 
 #: assets/components/ShareItemModal.jsx:65
 #: assets/user-profile/components/topics/FollowedTopics.jsx:82
 #: assets/wire/item-actions.js:22
 msgid "Share"
-msgstr "Sdílej"
+msgstr "Jaa"
 
 #: assets/components/ShareItemModal.jsx:68
 msgid "People"
-msgstr "Lidé"
+msgstr "Ihmiset"
 
 #: assets/components/ShareItemModal.jsx:79
 #: assets/wire/components/SelectedItemsBar.jsx:44
 msgid "Select All"
-msgstr "Vyber všechny"
+msgstr "Valitse kaikki"
 
 #: assets/components/ShareItemModal.jsx:89
 msgid "Message"
-msgstr "Vzkaz"
+msgstr "Viesti"
 
 #: assets/home/components/CardMeta.jsx:20
 #: assets/wire/components/ItemVersion.jsx:17
 #: assets/wire/components/WireListItem.jsx:95
 msgid "words"
-msgstr "slov"
+msgstr "sanat "
 
 #: assets/home/components/EventsTwoByTwoCard.jsx:26
 msgid "all"
-msgstr "vše"
+msgstr "kaikki"
 
 #: assets/home/components/EventsTwoByTwoCard.jsx:33
 msgid "to"
-msgstr "do"
+msgstr "päättyen"
 
 #: assets/home/components/HomeApp.jsx:131
 msgid "Warning"
-msgstr "Upozornění"
+msgstr "Varoitus"
 
 #: assets/home/components/HomeApp.jsx:131
 msgid "There's no card defined for home page!"
-msgstr "Pro homepage není definována žádná karta!"
+msgstr "Etusivulle ei ole määritelty yhtään näkymää!"
 
 #: assets/home/components/MoreNewsButton.jsx:12
 msgid "More news"
-msgstr "Více zpráv"
+msgstr "Lisää uutisia"
 
 #: assets/home/components/MoreNewsButton.jsx:16
 msgid "More photos"
-msgstr "Více fotek"
+msgstr "Lisää kuvia"
 
 #: assets/layout/components/BaseApp.jsx:26
 msgid "Topics"
-msgstr "Témata"
+msgstr "Aiheet"
 
 #: assets/layout/components/BaseApp.jsx:27
 #: assets/user-profile/components/UserProfileApp.jsx:37
 msgid "My Topics"
-msgstr "Moje témata"
+msgstr "Omat aiheeni"
 
 #: assets/layout/components/BaseApp.jsx:28
 msgid "Filters"
-msgstr "Filtry"
+msgstr "Suodattimet"
 
 #: assets/navigations/actions.jsx:81 assets/navigations/actions.jsx:137
 msgid "Navigation updated successfully"
-msgstr "Navigace aktualizována"
+msgstr "Navigaatio on päivitetty"
 
 #: assets/navigations/actions.jsx:83
 msgid "Navigation created successfully"
-msgstr "Navigace vytvořena"
+msgstr "Navigaatio on luotu"
 
 #: assets/navigations/actions.jsx:105
 msgid "Navigation deleted successfully"
-msgstr "Navigace smazána"
+msgstr "Navigaatio on poistettu"
 
 #: assets/navigations/components/EditNavigation.jsx:18
 #: assets/products/components/EditProduct.jsx:22
 msgid "Navigation"
-msgstr "Navigace"
+msgstr "Navigaatio"
 
 #: assets/navigations/components/EditNavigation.jsx:81
 #: assets/navigations/components/NavigationList.jsx:23
 #: assets/products/components/EditProduct.jsx:91
 msgid "Description"
-msgstr "Popis"
+msgstr "Kuvaus"
 
 #: assets/navigations/components/Navigations.jsx:56
 msgid "Would you like to delete navigation: {{name}}"
-msgstr "Chcete smazat navigaci: {{name}}"
+msgstr "Haluatko varmasti poistaa navigaation: {{nimi}}"
 
 #: assets/notifications/actions.js:40
 msgid "Notification cleared successfully"
-msgstr "Upozornění odstraněno"
+msgstr "Ilmoitus on poistettu"
 
 #: assets/notifications/actions.js:58
 msgid "Notifications cleared successfully"
-msgstr "Upozornění odstraněna"
+msgstr "Kaikki ilmoitukset poistettu"
 
 #: assets/products/actions.js:96 assets/products/actions.js:151
 #: assets/products/actions.js:181
 msgid "Product updated successfully"
-msgstr "Produkt aktualizován"
+msgstr "Tuote on päivitetty"
 
 #: assets/products/actions.js:98
 msgid "Product created successfully"
-msgstr "Produkt vytvořen"
+msgstr "Tuote on luotu"
 
 #: assets/products/actions.js:120
 msgid "Product deleted successfully"
-msgstr "Produkt smazán"
+msgstr "Tuote on poistettu"
 
 #: assets/products/components/EditProduct.jsx:21
 msgid "Companies"
-msgstr "Firmy"
+msgstr "Yritykset"
 
 #: assets/products/components/EditProduct.jsx:42
 msgid "Test product"
-msgstr "Otestuj produkt"
+msgstr "Testaa tuotetta"
 
 #: assets/products/components/EditProduct.jsx:97
 #: assets/products/components/ProductList.jsx:24
 msgid "Superdesk Product Id"
-msgstr "Product ID ze Superdesku"
+msgstr "Superdesk-tuotteen id"
 
 #: assets/products/components/EditProduct.jsx:106
 msgid "Test product id"
-msgstr "Otestuj Product ID"
+msgstr "Testaa tuotteen id:tä"
 
 #: assets/products/components/EditProduct.jsx:120
 msgid "Test query"
-msgstr "Vyzkoušej dotaz"
+msgstr "Testaa hakulauseketta"
 
 #: assets/products/components/Products.jsx:58
 msgid "Would you like to delete product: {{name}}"
-msgstr "Chcete smazat produkt: {{name}}"
+msgstr "Haluatko varmasti poistaa tuotteen: {{nimi}}"
 
 #: assets/tests/utils.spec.js:5
 msgid "foo"
-msgstr "foo"
+msgstr ""
 
 #: assets/tests/utils.spec.js:9
 msgid "hello {{ name }}"
-msgstr "Ahoj {{ name }}"
+msgstr "Hei {{ nimi }}"
 
 #: assets/ui/components/Preview.jsx:10 assets/wire/components/Preview.jsx:37
 #: assets/wire/components/filters/NavCreatedPicker.jsx:27
 msgid "Published"
-msgstr "Publikováno"
+msgstr "Julkaistu"
 
 #: assets/user-profile/actions.js:72 assets/users/actions.js:86
 msgid "User updated successfully"
-msgstr "Uživatel aktualizován"
+msgstr "Käyttäjän tiedot päivitetty"
 
 #: assets/user-profile/actions.js:107
 msgid "Topic deleted successfully"
-msgstr "Téma smazáno"
+msgstr "Aihe on poistettu"
 
 #: assets/user-profile/actions.js:139
 msgid "Topic was shared successfully."
-msgstr "Téma sdíleno"
+msgstr "Aihe on jaettu"
 
 #: assets/user-profile/components/profile/UserProfile.jsx:27
 msgid "Please provide first name"
-msgstr "Prosím vyplň křestní jméno"
+msgstr "Anna etunimi"
 
 #: assets/user-profile/components/profile/UserProfile.jsx:32
 msgid "Please provide last name"
-msgstr "Prosím vyplň příjmení"
+msgstr "Anna sukunimi"
 
 #: assets/user-profile/components/profile/UserProfile.jsx:61
 #: assets/users/components/EditUser.jsx:37
 msgid "First Name"
-msgstr "Křestní jméno"
+msgstr "Etunimi"
 
 #: assets/user-profile/components/profile/UserProfile.jsx:70
 #: assets/users/components/EditUser.jsx:44
 msgid "Last Name"
-msgstr "Příjmení"
+msgstr "Sukunimi"
 
 #: assets/user-profile/components/profile/UserProfile.jsx:79
 #: assets/users/components/EditUser.jsx:51
 #: assets/users/components/UsersList.jsx:24
 msgid "Email"
-msgstr "Email"
+msgstr "Sähköposti"
 
 #: assets/user-profile/components/profile/UserProfile.jsx:88
 #: assets/users/components/EditUser.jsx:58
 #: assets/users/components/UsersList.jsx:25
 msgid "Phone"
-msgstr "Telefon"
+msgstr "Puhelin"
 
 #: assets/user-profile/components/profile/UserProfile.jsx:97
 #: assets/users/components/EditUser.jsx:65
 #: assets/users/components/UsersList.jsx:26
 msgid "Mobile"
-msgstr "Mobil"
+msgstr "Matkapuhelin"
 
 #: assets/user-profile/components/profile/UserProfile.jsx:106
 #: assets/users/components/EditUser.jsx:72
 #: assets/users/components/UsersList.jsx:27
 msgid "Role"
-msgstr "Pozice"
+msgstr "Rooli"
 
 #: assets/user-profile/components/profile/UserProfile.jsx:115
 msgid "Receive notifications via email"
-msgstr "Dostávat upozornění emailem"
+msgstr "Ota vastaan ilmoituksia sähköpostilla"
 
 #: assets/user-profile/components/profile/UserProfile.jsx:133
 msgid "Save Changes"
-msgstr "Uložit změny"
+msgstr "Tallenna muutokset"
 
 #: assets/user-profile/components/topics/FollowedTopics.jsx:77
 msgid "Edit"
-msgstr "Upravit"
+msgstr "Muokkaa"
 
 #: assets/user-profile/components/topics/FollowedTopics.jsx:89
 msgid "Would you like to delete topic {{name}}?"
-msgstr "Chcete smazat téma: {{name}}?"
+msgstr "Haluatko varmasti poistaa aiheen {{nimi}}?"
 
 #: assets/user-profile/components/UserProfileApp.jsx:32
 msgid "My Profile"
-msgstr "Můj profil"
+msgstr "Profiilini"
 
 #: assets/user-profile/components/UserProfileApp.jsx:128
 msgid "Logout"
-msgstr "Odhlásit se"
+msgstr "Kirjaudu ulos"
 
 #: assets/users/actions.js:88
 msgid "User created successfully"
-msgstr "Uživatel vytvořen"
+msgstr "Käyttäjä on luotu"
 
 #: assets/users/actions.js:105
 msgid "Reset password token is sent successfully"
-msgstr "Link na obnovu hesla odeslán"
+msgstr "Ohjeet salasanan vaihtamiseen on lähetetty"
 
 #: assets/users/actions.js:123
 msgid "User deleted successfully"
-msgstr "Uživatel smazán"
+msgstr "Käyttäjä on poistettu"
 
 #: assets/users/components/EditUser.jsx:10
 msgid "Administrator"
-msgstr "Administrátor"
+msgstr "Ylläpitäjä"
 
 #: assets/users/components/EditUser.jsx:11
 msgid "Internal"
-msgstr "Interní"
+msgstr "Sisäinen"
 
 #: assets/users/components/EditUser.jsx:12
 msgid "Public"
-msgstr "Klient"
+msgstr "Julkinen"
 
 #: assets/users/components/EditUser.jsx:79
 #: assets/users/components/UsersList.jsx:28
 msgid "User Type"
-msgstr "Typ uživatele"
+msgstr "Käyttäjätyyppi"
 
 #: assets/users/components/EditUser.jsx:96
 #: assets/users/components/UserListItem.jsx:18
 msgid "Approved"
-msgstr "Schválen"
+msgstr "Hyväksytty"
 
 #: assets/users/components/EditUser.jsx:113
 msgid "Reset Password"
-msgstr "Obnovit heslo"
+msgstr "Palauta salasana"
 
 #: assets/users/components/UserListItem.jsx:18
 msgid "Needs Approval"
-msgstr "Vyžaduje schválení"
+msgstr "Odottaa hyväksyntää"
 
 #: assets/users/components/Users.jsx:55
 msgid "Would you like to delete user: {{name}}?"
-msgstr "Chcete smazat uživatele: {{name}}?"
+msgstr "Haluatko varmasti poistaa käyttäjän: {{nimi}}?"
 
 #: assets/wire/actions.js:117
 msgid "By: {{ byline }}"
-msgstr "Napsal: {{ byline }}"
+msgstr "Tekijä: {{ kirjoittaja }}"
 
 #: assets/wire/actions.js:118 assets/wire/components/PreviewMeta.jsx:34
 msgid "Source: {{ source }}"
-msgstr "Zdroj: {{ source }}"
+msgstr "Lähde: {{ lähde}}"
 
 #: assets/wire/actions.js:140
 msgid "Item copied successfully."
-msgstr "Úspěšně zkopírováno"
+msgstr "Kohde kopioitu"
 
 #: assets/wire/actions.js:143
 msgid "Sorry, Copy is not supported."
-msgstr "Je nám líto, kopírování není možné."
+msgstr "Pahoittelut, kopiointi ei ole mahdollista"
 
 #: assets/wire/actions.js:327
 msgid "Items were bookmarked successfully."
-msgstr "Úspěšně uloženo."
+msgstr "Kohteet lisätty suosikkeihin"
 
 #: assets/wire/actions.js:329
 msgid "Item was bookmarked successfully."
-msgstr "Úspěšně uloženo."
+msgstr "Kohde lisätty suosikkeihin"
 
 #: assets/wire/actions.js:344
 msgid "Items were removed from bookmarks successfully."
-msgstr "Odstraněno z uložených položek."
+msgstr "Kohteet poistettu suosikeista"
 
 #: assets/wire/actions.js:346
 msgid "Item was removed from bookmarks successfully."
-msgstr "Odstraněno z uložených položek."
+msgstr "Kohde poistettu suosikeista"
 
 #: assets/wire/components/AgendaLinks.jsx:48
 msgid "Open agenda item \"{{ name }}\""
-msgstr "Zobrazit \"{{ name }}\" v Kalendáři"
+msgstr "Avaa agenda \"{{ nimi }}"
 
 #: assets/wire/components/DownloadItemsModal.jsx:33
 msgid "Download Items"
-msgstr "Stáhnout"
+msgstr "Lataa kohteet"
 
 #: assets/wire/components/DownloadItemsModal.jsx:33
 #: assets/wire/item-actions.js:43
 msgid "Download"
-msgstr "Stáhnout"
+msgstr "Lataa"
 
 #: assets/wire/components/DownloadItemsModal.jsx:37
 msgid "Format"
-msgstr "Formát"
+msgstr "Tiedostomuoto"
 
 #: assets/wire/components/filters/FilterGroup.jsx:20
 msgid "Show more"
-msgstr "Zobraz více"
+msgstr "Näytä enemmän"
 
 #: assets/wire/components/filters/FilterGroup.jsx:28
 msgid "Show less"
-msgstr "Zobraz méně"
+msgstr "Näytä vähemmän"
 
 #: assets/wire/components/PreviewTags.jsx:24
 #: assets/wire/components/filters/FiltersTab.jsx:27
 msgid "Category"
-msgstr "Kategorie"
+msgstr "Kategoria"
 
 #: assets/wire/components/filters/FiltersTab.jsx:31
 msgid "Subject"
-msgstr "Předmět"
+msgstr "Aihe"
 
 #: assets/wire/components/PreviewTags.jsx:30
 #: assets/wire/components/filters/FiltersTab.jsx:35
 msgid "Content Type"
-msgstr "Typ obsahu"
+msgstr "Sisältötyyppi"
 
 #: assets/wire/components/filters/FiltersTab.jsx:39
 msgid "News Value"
-msgstr "Důležitost"
+msgstr "Prioriteetti"
 
 #: assets/wire/components/filters/FiltersTab.jsx:43
 msgid "Place"
-msgstr "Místo"
+msgstr "Sijainti"
 
 #: assets/wire/components/filters/FiltersTab.jsx:88
 msgid "Clear filters"
-msgstr "Vymaž filtry"
+msgstr "Tyhjennä suodattimen valinnat"
 
 #: assets/wire/components/filters/NavCreatedPicker.jsx:36
 msgid "From"
-msgstr "Od"
+msgstr "Alkaen"
 
 #: assets/wire/components/filters/NavCreatedPicker.jsx:44
 msgid "To"
-msgstr "Do"
+msgstr "Päättyen"
 
 #: assets/wire/components/filters/NavigationTab.jsx:30
 msgid "All"
-msgstr "Vše"
+msgstr "Kaikki"
 
 #: assets/wire/components/ItemDetails.jsx:50
 #: assets/wire/components/Preview.jsx:66
 msgid "By"
-msgstr "- "
+msgstr "Tekijä:"
 
 #: assets/wire/components/ItemDetails.jsx:54
 msgid "at"
-msgstr "v"
+msgstr "Aika:"
 
 #: assets/wire/components/ListItemNextVersion.jsx:44
 msgid "Next version"
-msgstr "Novější verze"
+msgstr "Seuraava versio"
 
 #: assets/wire/components/ListItemPreviousVersions.jsx:40
 msgid "Loading"
-msgstr "Načítám"
+msgstr "Lataan"
 
 #: assets/wire/components/ListItemPreviousVersions.jsx:59
 msgid "Previous versions"
-msgstr "Starší verze"
+msgstr "Aiemmat versiot"
 
 #: assets/wire/components/NewsOnlyControl.jsx:11
 msgid "News only"
-msgstr "Jen zprávy"
+msgstr "Vain uutiset"
 
 #: assets/wire/components/Preview.jsx:50
 msgid "Follow story"
-msgstr "Sleduj článek"
+msgstr "Seuraa uutista"
 
 #: assets/wire/components/Preview.jsx:71
 msgid "in {{ located}}"
-msgstr "v {{ located}}"
+msgstr "Paikka:"
 
 #: assets/wire/components/PreviewMeta.jsx:32
 msgid "News Value: {{ value }}"
-msgstr "Důležitost: {{ value }}"
+msgstr "Prioriteetti: {{ arvo }}"
 
 #: assets/wire/components/PreviewMeta.jsx:33
 msgid "Words:"
-msgstr "Slov:"
+msgstr "Sanoja:"
 
 #: assets/wire/components/PreviewMeta.jsx:37
 msgid "{{ count }} previous versions"
-msgstr "{{ count }} starších verzí"
+msgstr "{{ määrä }} aiempaa versiota"
 
 #: assets/wire/components/PreviewTags.jsx:22
 msgid "Metadata"
@@ -1023,49 +1024,49 @@ msgstr "Metadata"
 
 #: assets/wire/components/SearchResultsInfo.jsx:60
 msgid "search results for:"
-msgstr "Výsledky vyhledávání:"
+msgstr "hakutulokset:"
 
 #: assets/wire/components/SearchResultsInfo.jsx:80
 msgid "S"
-msgstr "S"
+msgstr ""
 
 #: assets/wire/components/SearchResultsInfo.jsx:88
 msgid "New stories available to load"
-msgstr "Jsou k dispozici nové články"
+msgstr "Uusia uutisia ladattavissa"
 
 #: assets/wire/components/SelectedItemsBar.jsx:47
 msgid "{{ count }} item(s) selected"
-msgstr "vybráno {{ count }} článků"
+msgstr "{{ määrä }} kohde(tta) valittu"
 
 #: assets/wire/components/TopicsTab.jsx:40
 msgid "Manage my {{name}}"
-msgstr "Spravovat"
+msgstr "Hallinnoi omia aiheitani"
 
 #: assets/wire/components/TopicsTab.jsx:42
 msgid "No {{name}} created."
-msgstr "{{name}} nevytvořena"
+msgstr "Nimeä ei annettu."
 
 #: assets/wire/components/WireListItem.jsx:94
 msgid "{{ source }}"
-msgstr "{{ source }}"
+msgstr "{{ lähde }}"
 
 #: assets/wire/components/WireListItem.jsx:118
 msgid "Show previous versions ({{ count }})"
-msgstr "Zobrazit starší verze ({{ count }})"
+msgstr "Näytä aiemmat ({{ määrä }}) versiota"
 
 #: assets/wire/item-actions.js:16
 msgid "Open"
-msgstr "Otevřít"
+msgstr "Avaa"
 
 #: assets/wire/item-actions.js:31
 msgid "Print"
-msgstr "Vytisknout"
+msgstr "Tulosta"
 
 #: assets/wire/item-actions.js:37
 msgid "Copy"
-msgstr "Kopírovat"
+msgstr "Kopioi"
 
 #: assets/wire/item-actions.js:59
 msgid "Unsave"
-msgstr "Odstranit z uložených"
+msgstr "Älä tallenna"
 
