@@ -204,6 +204,17 @@ def test_push_featuremedia_has_renditions_for_existing_media(client):
         resp = client.get(rendition['href'])
         assert 200 == resp.status_code
 
+    # associations got removed
+    corrected = item.copy()
+    corrected['associations'] = {}
+    resp = client.post('/push', data=json.dumps(corrected), content_type='application/json')
+    assert 200 == resp.status_code
+
+    resp = client.get('/wire/test?format=json')
+    data = json.loads(resp.get_data())
+    assert 200 == resp.status_code
+    assert data['associations']['featuremedia'] is None
+
 
 def test_push_binary_invalid_signature(client, app):
     app.config['PUSH_KEY'] = b'foo'
